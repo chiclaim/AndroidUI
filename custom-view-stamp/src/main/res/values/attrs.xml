@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StampView">
+        <attr name="outside_circle_border_width" format="dimension"/>
+        <attr name="inside_circle_border_width" format="dimension"/>
+        <attr name="circles_gap" format="dimension"/>
+        <attr name="text_margin" format="dimension"/>
+        <attr name="text_angle" format="integer"/>
+        <attr name="line_normal_text_length" format="integer"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="text" format="string"/>
+        <attr name="textColor" format="color"/>
+    </declare-styleable>
+
+</resources>
