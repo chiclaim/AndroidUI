@@ -1,16 +1,23 @@
 package com.chiclaim.android.ui.sample
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 
 /**
  *
- * Created by kumu@2dfire.com on 2022/11/30.
+ * Created by chiclaim@google.com
  */
-class StampViewFragment : Fragment() {
+class StampViewFragment : BaseFragment() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val actionBar = (activity as AppCompatActivity).supportActionBar
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+        actionBar?.title = "StampView"
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -19,4 +26,6 @@ class StampViewFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_stamp_view, container, false)
     }
+
+
 }

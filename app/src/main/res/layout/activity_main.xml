@@ -13,6 +13,7 @@
         android:layout_margin="5dp"
         android:onClick="goStampView"
         android:stateListAnimator="@null"
+        android:textAllCaps="false"
         android:text="StampView" />
 
 

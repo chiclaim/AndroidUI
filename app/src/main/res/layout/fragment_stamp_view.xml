@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:paddingTop="50dp">
 
     <com.chiclaim.android.ui.view.StampView
         android:layout_width="60dp"
